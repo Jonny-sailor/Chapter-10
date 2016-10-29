@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D1640F00-99BB-4720-8E9A-9E436FF8BF33}</ProjectGuid>
+    <ProjectGuid>{18062D8F-62CA-459D-8B7D-B49EEBF5E435}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -147,6 +147,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Classes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code.cpp" />
+    <ClCompile Include="For metods.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
