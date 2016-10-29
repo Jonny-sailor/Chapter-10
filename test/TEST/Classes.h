@@ -2,16 +2,19 @@
 #define CLASS_H
 
 #include <string>
+#include <iostream>
+#include <cctype>
 
 class Bank_dep 
 {
 private:
-	enum {SIZE = 10};
+	enum {SIZE = 20};
 	std::string name;
-	char dep_num[10];
+	char dep_num[SIZE];
 	double balance;
 
 public:
+	//конструктор
 	Bank_dep(std::string _name = "null", char _dep_num[] = "null" , double _balance = 0);
 
 	//инициализация объекта
@@ -19,7 +22,7 @@ public:
 	void init(std::string _name);
 
 	//отображение данных объекта
-	void view(void);
+	void view(void) const;
 
 	//пополнение счета
 	void refill(double _ref);
@@ -29,6 +32,7 @@ public:
 
 };
 
+void notclose();
 
 
 #endif // !CLASS_H
