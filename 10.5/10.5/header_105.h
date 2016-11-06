@@ -22,7 +22,7 @@ namespace customers {
 		bool isfull();
 		bool push(const Item & item);
 		bool pop(Item & item);
-
+		Stack();
 	};
 }
 

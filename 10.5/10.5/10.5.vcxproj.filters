@@ -23,5 +23,8 @@
     <ClCompile Include="functions_105.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main_105.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
